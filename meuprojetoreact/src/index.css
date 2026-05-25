@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* (OPCIONAL) Ajustes Globais*/
+
+:root{
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

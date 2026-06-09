@@ -8,7 +8,7 @@ O projeto foi desenvolvido para praticar conceitos importantes do ecossistema Re
 
 ## 🌐 Demonstração
 
-👉 Acesse a página no GitHub Pages
+👉 Acesse a página no GitHub Pages : https://lepofernandes.github.io/Projeto-Landing-Page-React/
 
 👉 Repositório: https://github.com/LepoFernandes/Projeto-Landing-Page-React
 

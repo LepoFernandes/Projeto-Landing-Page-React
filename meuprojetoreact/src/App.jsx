@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="bg-slate-950 text-slate-100 selection:bg-fuchsia-500/30">
       {/* NAVBAR */}
-      <header className="stick top-0 z-40 border-b border-white/5">
+      <header className="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-white/5">
         <div className='mx-auto max-w-6xl px-4 py-4 flex items-center justify-between'>
           <a href="#" className='flex items-center gap-2'>
             <Sparkles className='size-5 text-fuchsia-400'/>
@@ -146,7 +146,7 @@ function App() {
 
       {/* FEATURES */}
 
-      <section id="features" className="mx-auto max-w-6xl px-4 py-8">
+      <section id="features" className="mx-auto max-w-6xl px-4 py-8 scroll-mt-24">
         <h2 className="text-3xl font-bold">Tudo que você precisa</h2>
         <p className="text-slate-300 mt-2 max-w-2xl">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -198,9 +198,9 @@ function App() {
 
       {/* Depoimentos */}
 
-      <section id="testimonials" className="mx-auto max-w-6xl px-4 py-8">
+      <section id="testimonials" className="mx-auto max-w-6xl px-4 py-8 scroll-mt-24">
         <h2 className="text-3xl font-bold">Quem usou, aprovou</h2>
-        <div className="mt-8 grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
           {[1, 2, 3].map((i) => (
             <blockquote key={i} className='rounded-2xl border border-white/10 p-6'>
               <div className="flex items-center gap-2 text-amber-400">
@@ -208,11 +208,11 @@ function App() {
                   <Star key={i} className='size-4 fill-current'/>
                 ))}
               </div>
-              <p className='mt-3 text-slate-300'>
+              <p className='mt-3 text-slate-200'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ipsam nulla impedit ullam tempora omnis quos, exercitationem vero iusto unde,
               </p>
-              <footer className="mt-3 text-sm-text-slate-400">
+              <footer className="mt-3 text-sm text-slate-400">
                 - Nome do Cliente
               </footer>
             </blockquote>
@@ -222,7 +222,7 @@ function App() {
 
       {/* PRECOS */}
 
-      <section id="pricing" className="mx-auto max-w-6xl px-4 py-8 mb-20">
+      <section id="pricing" className="mx-auto max-w-6xl px-4 py-8 mb-20 scroll-mt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           <div>
           <h2 className="text-3xl font-bold">Plano Único, sem Complicações</h2>

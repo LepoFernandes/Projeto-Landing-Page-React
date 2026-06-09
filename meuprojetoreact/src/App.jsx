@@ -198,7 +198,7 @@ function App() {
 
       {/* Depoimentos */}
 
-      <section id="testmonials" className="mx-auto max-w-6xl px-4 py-8">
+      <section id="testimonials" className="mx-auto max-w-6xl px-4 py-8">
         <h2 className="text-3xl font-bold">Quem usou, aprovou</h2>
         <div className="mt-8 grid-cols-1 md:grid-cols-3 gap-4">
           {[1, 2, 3].map((i) => (
@@ -222,7 +222,7 @@ function App() {
 
       {/* PRECOS */}
 
-      <section id="princing" className="mx-auto max-w-6xl px-4 py-8 mb-20">
+      <section id="pricing" className="mx-auto max-w-6xl px-4 py-8 mb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           <div>
           <h2 className="text-3xl font-bold">Plano Único, sem Complicações</h2>
